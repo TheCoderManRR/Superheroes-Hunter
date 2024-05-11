@@ -1,0 +1,122 @@
+*{
+    font-family: fantasy ;
+    font-weight: 80 ;
+}
+
+html{
+    background-color: rgb(175, 182, 164);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+  }
+
+footer p a{
+    color:rgb(214, 225, 225) ;
+}
+
+.favorite-character-card {
+    text-align: center;
+}
+
+
+#Fav{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#Fav p {
+    margin-top: 80px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    padding-left: 20px ;
+    font-size: 10px;
+    color:rgb(214, 225, 225) ;
+}
+
+
+#TopTittleBar{
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    top:10px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px ;
+    display: flex;
+    flex-direction: row;
+    background-color: chartreuse;
+    width:100%;
+    height: 50px;
+    align-items: center;
+}
+
+h2{
+    margin: 2px 0px 2px 30px;
+}
+
+input{
+    width:70% ;
+    height: 25px ;
+    border-radius: 10px ;
+}
+
+.favorite-characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.favorite-character-card {
+    width: calc(25% - 20px); /* Adjust width as per your requirement */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.character-image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.character-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.character-name {
+    margin: 0;
+}
+
+.remove-from-favorites {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
