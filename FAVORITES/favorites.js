@@ -5,7 +5,7 @@ function displayFavorites() {
 
     favorites.forEach(async (characterId) => {
         try {
-            let response = await fetch(`http://gateway.marvel.com/v1/public/characters/${characterId}?ts=1&apikey=b8ffec201008949c2422b84410b608ac&hash=2612f31a32ed1f9e9146bce6cfcca5b5`);
+            let response = await fetch(`https://gateway.marvel.com/v1/public/characters/${characterId}?ts=1&apikey=b8ffec201008949c2422b84410b608ac&hash=2612f31a32ed1f9e9146bce6cfcca5b5`);
             if (!response.ok) {
                 throw new Error('Network response was not ok.');
             }
