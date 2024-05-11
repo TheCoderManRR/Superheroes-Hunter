@@ -2,7 +2,7 @@ const params = new URLSearchParams(window.location.search);
 const superheroId = params.get('id');
 
 const getSuperheroDetails = async () => {
-    const url = `http://gateway.marvel.com/v1/public/characters/${superheroId}?ts=1&apikey=b8ffec201008949c2422b84410b608ac&hash=2612f31a32ed1f9e9146bce6cfcca5b5`;
+    const url = `https://gateway.marvel.com/v1/public/characters/${superheroId}?ts=1&apikey=b8ffec201008949c2422b84410b608ac&hash=2612f31a32ed1f9e9146bce6cfcca5b5`;
     const response = await fetch(url);
     const jsonData = await response.json();
     const superhero = jsonData.data.results[0];
