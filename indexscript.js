@@ -1,4 +1,4 @@
-const URL = "http://gateway.marvel.com/v1/public/characters?ts=1&apikey=b8ffec201008949c2422b84410b608ac&hash=2612f31a32ed1f9e9146bce6cfcca5b5";
+const URL = "https://gateway.marvel.com/v1/public/characters?ts=1&apikey=b8ffec201008949c2422b84410b608ac&hash=2612f31a32ed1f9e9146bce6cfcca5b5";
 
 
                                                       // Fetch url and create CARD
